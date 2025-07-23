@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Apila elementos verticalmente */
+  align-items: center;     /* Centra horizontalmente */
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.titulo {
+  font-family: 'Comic Sans MS', cursive;
+  color: rgb(0, 106, 255);
+}
+
+.calculadora {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
